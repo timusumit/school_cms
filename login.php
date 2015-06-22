@@ -13,11 +13,15 @@ opacity:1 !important;
 <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs">
 </div>
 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background:#f9f9f9; padding:20px;">
-<form>
-<input type="text" class="form-control" placeholder="Username">
+<h3>Admin Login</h3>
+<form method="post" action="logged_in.php">
+<input name="uname" type="text" class="form-control" placeholder="Username">
 <br>
-<input type="password" class="form-control" placeholder="Password">
-<button class="btn btn-success"  type="submit">Submit</button>
+<input name="pwd" type="password" class="form-control" placeholder="Password">
+<br>
+<button class="btn btn-success"  type="submit">Login</button>
+<br>
+<a href="#">Forgot Password/Username?</a>
 </form>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-3 hidden-xs">
